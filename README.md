@@ -18,11 +18,14 @@ This project is a collection of scripts (right now just one) that a user may exe
 - webcam
 - Bluetooth
 - audio output (via speaker-test)
+
 The following peripherals should work (by all accounts), but I haven't gotten around to trying yet:
 - VGA
 - SD card
+
 These peripherals may or may not work and I haven't tested them yet:
 - microphone
+
 These don't work (yet?):
 - fingerprint sensor
 - CompactFlash: It looks to be confusing the Debian kernel into thinking it is a PCMCIA card
