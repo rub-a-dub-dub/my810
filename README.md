@@ -9,7 +9,7 @@ When the U810 first came out, there was a [lot of interest][r1] in getting it to
 
 Scripts
 --------
-This project is a collection of scripts (right now just one) that a user may execute after a fresh Debian (Wheezy; atleast that's what I tested on) install to get a working U810 system. The table below lists the peripherals that appear to work (once the script executes):
+This project is a signle script that a user executes after a Debian (Wheezy; atleast that's what I tested on) install to get a working U810 system. The table below lists the peripherals that appear to work (once the script executes):
 - WiFi
 - Ethernet
 - touchscreen
