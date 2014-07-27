@@ -8,7 +8,7 @@
 #
 
 # 1. System debs
-apt-get -y install usbutils link curl minicab x11vnc openjdk-7-jre mplayer motion cheese blueman
+apt-get -y install usbutils link curl minicab x11vnc openjdk-7-jre mplayer motion cheese blueman librxtx-java
 
 # 2. Calibrator for the touchscreen
 wget http://github.com/downloads/tias/xinput_calibrator/xinput-calibrator_0.7.5-1_i386.deb -O /tmp/xinput_calibrator.deb
