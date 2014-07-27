@@ -24,7 +24,7 @@ The following peripherals should work (by all accounts), but I haven't gotten ar
 - SD card
 
 These peripherals may or may not work and I haven't tested them yet:
-- microphone
+- microphone (no external mic available but internal mic doesn't seem to record)
 
 These don't work (yet?):
 - fingerprint sensor
