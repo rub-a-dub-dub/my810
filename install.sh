@@ -8,7 +8,7 @@
 #
 
 # 1. System debs
-apt-get -y install usbutils link curl minicab x11vnc openjdk-7-jre mplayer motion cheese blueman librxtx-java
+apt-get -y install usbutils link curl minicab x11vnc openjdk-7-jre mplayer motion cheese blueman librxtx-java ntpdate
 
 # 2. Calibrator for the touchscreen
 wget http://github.com/downloads/tias/xinput_calibrator/xinput-calibrator_0.7.5-1_i386.deb -O /tmp/xinput_calibrator.deb
@@ -56,3 +56,6 @@ echo '54c54
 # 8. Auto startx
 echo '13a14
 > su -l root -c startx' | patch -p0 /etc/rc.local
+
+# 9. Setting up ntp time sync at boot
+update-rc.d hwclock.sh defaults
